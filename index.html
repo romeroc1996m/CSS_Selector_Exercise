@@ -8,49 +8,54 @@
 
     <link rel="stylesheet" href="css/main.css">
 
-    <title>Document</title>
+    <title>Selectors</title>
 </head>
 <body>
-    <main>
-        <header>
+       <header id="header">
             <h1>Weekly Planner</h1>
         </header>
 
-        <article id="Todo">
-            <h2>To Dos</h2>
+    <main>
+        <nav>
 
-            <ul class="Todo">
-                <li><input type="checkbox"> item 1</li>
-                <li><input type="checkbox"> item 2</li>
-                <li><input type="checkbox"> item 3</li>
-                <li><input type="checkbox"> item 4</li>
-                <li><input type="checkbox"> item 5</li>
-            </ul>
-        </article>
+            <article id="Todo">
+                <h2>To Dos</h2>
+                    <ul class="Todo">
+                        <li><input type="checkbox"> item 1</li>
+                        <li><input type="checkbox"> item 2</li>
+                        <li><input type="checkbox"> item 3</li>
+                        <li><input type="checkbox"> item 4</li>
+                        <li><input type="checkbox"> item 5</li>
+                    </ul>
+            </article>  
 
-        <article id="InProgress">
-            <h2>In Progress</h2>
+            <article id="InProgress">
+                <h2>In Progress</h2>
+                    <ul class="InProgress">
+                        <li><input type="checkbox"> item 1</li>
+                        <li><input type="checkbox"> item 2</li>
+                        <li><input type="checkbox"> item 3</li>
+                        <li><input type="checkbox"> item 4</li>
+                        <li><input type="checkbox"> item 5</li>    
+                    </ul>
+            </article>
 
-            <ul class="InProgress">
-                <li><input type="checkbox"> item 1</li>
-                <li><input type="checkbox"> item 2</li>
-                <li><input type="checkbox"> item 3</li>
-                <li>item 4</li>
-                <li>item 5</li>    
-            </ul>
-        </article>
-
-        <article id="Done">
-            <h2>Done</h2>
-
-            <ul class="Done">
-                <li>item 1</li>
-                <li>item 2</li>
-                <li>item 3</li>
-                <li>item 4</li>
-                <li>item 5</li>    
-            </ul>
-        </article>
+            <article id="Done">
+                <h2>Done</h2>
+                    <ul class="Done">
+                        <li><input type="checkbox">item 1</li>
+                        <li><input type="checkbox">item 2</li>
+                        <li><input type="checkbox">item 3</li>
+                        <li><input type="checkbox">item 4</li>
+                        <li><input type="checkbox">item 5</li>    
+                    </ul>
+            </article> 
+        </nav>
     </main>
+
+    <footer class="sticky_footer">
+        <h3>Images &copy; Unsplash </h3>
+    </footer>    
+
 </body>
 </html>
